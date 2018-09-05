@@ -11,6 +11,7 @@ func main() {
 //    utils.ArrayFunc()
 //    utils.Slice()
 //    utils.Map()
-    utils.Range()
+//    utils.Range()
+    utils.TestFunc()
 
 }
