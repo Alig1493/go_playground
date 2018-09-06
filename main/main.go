@@ -13,6 +13,7 @@ func main() {
 //    utils.Map()
 //    utils.Range()
 //    utils.TestFunc()
-    utils.Pointer()
+//    utils.Pointer()
+    utils.Struct()
 
 }
