@@ -44,6 +44,16 @@ func closure() func() int {
 }
 
 
+func recursion_fact(n int) int {
+
+    if n == 0 {
+        return 1
+    }
+    return n * recursion_fact(n - 1)
+
+}
+
+
 func TestFunc() {
 
     plus := plus(1,2)
@@ -67,6 +77,9 @@ func TestFunc() {
     fmt.Println(value())
     // to start anew inistialize closur again seperately
     // closure returns a function which in turn must be called as well
+    
+    fmt.Println("Testing recursion: ")
+    fmt.Println(recursion_fact(7))
 
 }
 
