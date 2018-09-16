@@ -16,6 +16,7 @@ func Range() {
     fmt.Println("Sum: ", sum)
     
     kvs := map[string]string {"a": "apple", "b": "banana"}
+    
     for key, value := range kvs {
         fmt.Printf("%s -> %s\n", key, value)
     }

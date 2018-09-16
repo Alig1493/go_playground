@@ -14,6 +14,9 @@ func main() {
 //    utils.Range()
 //    utils.TestFunc()
 //    utils.Pointer()
-    utils.Struct()
+//    utils.Struct()
+//    utils.Method()
+//    utils.Interface()
+    utils.ErrorTest()
 
 }
